@@ -9,6 +9,8 @@ INFO_TEXT = f"""
 **ɪɴꜰᴏ ᴄᴏᴍᴍᴀɴᴅꜱ**
 
 • `{hl}info` » ᴛᴏ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ʀᴇᴘʟʏᴇᴅ ᴜꜱᴇʀ ᴀᴄᴄ....
+
+• `{hl}adminlist` » ᴄʜᴇᴄᴋ ʙʏ ʏᴏᴜʀꜱᴇʟꜰ....
 """
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["helpinfo"], ["."]))
