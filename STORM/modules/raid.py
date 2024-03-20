@@ -3,6 +3,7 @@ from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from STORMDB.data import STORMS, RAID
+from config import SUDO_USERS, OWNER_ID
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], ["."]))
 async def raid(xspam: Client, message: Message):  
