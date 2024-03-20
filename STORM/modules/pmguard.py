@@ -1,98 +1,56 @@
-from pyrogram import filters, Client
+from pyrogram import Client, filters
 import asyncio
-from pyrogram.types import Message 
-import STORM.database.pmpermitdb as KEX
 
-LOG_GROUP = "-1002068576120" 
+LOG_GROUP = "-1002068576120"
 PM_LOGGER = "-1002068576120"
-FLOOD_CTRL = 0
-ALLOWED = []
-USERS_AND_WARNS = {}
+ALLOWED_USERS = [6257927828]
+PM_BLOCKED_MESSAGE = (
+"**ᴡᴀʀɴɪɴɢ ⚠️ ᴘʟᴢ ʀᴇᴀᴅ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴠᴇʀʏ ᴄᴀʀᴇꜰᴜʟʟʏ....**"
+"**ɪ'ᴍ ꜱᴛᴏʀᴍ ᴜꜱᴇʀʙᴏᴛ ! ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴏꜰ ᴍʏ ꜱᴇɴꜱᴇɪ ! ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ᴍʏ ꜱᴇɴꜱᴇɪ ꜰʀᴏᴍ ꜱᴘᴀᴍᴍᴇʀꜱ.**"
+"**ɪꜰ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀ ꜱᴘᴀᴍᴍᴇʀ ᴛʜᴇɴ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ!...**"
+)
 
-async def denied_users(_, __, message):
-    if not await KEX.pm_guard():
-        return False
-    if message.chat.id in (await KEX.get_approved_users()):
+
+async def pmpermit_guard(filter, client, message):
+    # Check if the user is allowed to PM the bot
+    if message.chat.id in ALLOWED_USERS:
         return False
     else:
+        # If not allowed, send a message and block the user
+        await message.reply_text(PM_BLOCKED_MESSAGE)
+        await client.block_user(message.chat.id)
         return True
 
-def get_arg(message):
-    msg = message.text
-    msg = msg.replace(" ", "", 1) if msg[1] == " " else msg
-    split = msg[1:].replace("\n", " \n").split(" ")
-    if " ".join(split[1:]).strip() == "":
-        return ""
-    return " ".join(split[1:])
+# Command to allow a user to PM the bot
+@Client.on_message(filters.command(["allow"], prefixes=".") & filters.me)
+async def allow_pm(client, message):
+    if message.reply_to_message:
+        user_id = message.reply_to_message.from_user.id
+        ALLOWED_USERS.append(user_id)
+        await message.reply_text(f"User {user_id} has been allowed to PM the bot.")
+    else:
+        await message.reply_text("Please reply to the user's message to allow them to PM the bot.")
 
-@Client.on_message(filters.command("setlimit", ["."]) & filters.me)
-async def pmguard(client, message):
-    arg = get_arg(message)
-    if not arg:
-        await message.edit("**Set limit to <count>**")
-        return
-    await KEX.set_limit(int(arg))
-    await message.edit(f"**Limit set to {arg}**")
 
-@Client.on_message(filters.command("setblockmsg", ["."]) & filters.me)
-async def setpmmsg(client, message):
-    arg = get_arg(message)
-    if not arg:
-        await message.edit("**What message to set**")
-        return
-    if arg == "default":
-        await KEX.set_block_message(KEX.BLOCKED)
-        await message.edit("**Block message set to default**")
-        return
-    await KEX.set_block_message(f"`{arg}`")
-    await message.edit("**Custom block message set**")
-
-@Client.on_message(filters.command(["allow", "ap", "approve", "a"], ["."]) & filters.me & filters.private)
-async def allow(client, message):
-    chat_id = message.chat.id
-    await KEX.allow_user(chat_id)
-    await message.edit(f"**I have allowed you to PM my master**")
-    async for message in client.search_messages(
-        chat_id=message.chat.id, query=pm_message, limit=1, from_user="me"
-    ):
-        await message.delete()
-    USERS_AND_WARNS.update({chat_id: 0})
-
-@Client.on_message(filters.command(["deny", "dap", "disapprove", "dapp"], ["."]) & filters.me & filters.private)
-async def deny(client, message):
-    chat_id = message.chat.id
-    await KEX.deny_user(chat_id)
-    await message.edit(f"**I have denied you to PM my master**")
-
-@Client.on_message(
-    filters.private
-    & filters.create(denied_users)
-    & filters.incoming
-    & ~filters.service
-    & ~filters.me
-    & ~filters.bot
-)
-async def reply_pm(client, message):
-    global FLOOD_CTRL
-    pmpermit, pm_message, limit, block_message = await KEX.get_pm_settings()
-    user = message.from_user.id
-    user_warns = 0 if user not in USERS_AND_WARNS else USERS_AND_WARNS[user]
-    if PM_LOGGER:
-        await client.send_message(PM_LOGGER, f"{message.text}")
-    if user_warns <= limit - 2:
-        user_warns += 1
-        USERS_AND_WARNS.update({user: user_warns})
-        if not FLOOD_CTRL > 0:
-            FLOOD_CTRL += 1
+# Command to disallow a user from PMing the bot
+@Client.on_message(filters.command(["disallow"], prefixes=".") & filters.me)
+async def disallow_pm(client, message):
+    if message.reply_to_message:
+        user_id = message.reply_to_message.from_user.id
+        if user_id in ALLOWED_USERS:
+            ALLOWED_USERS.remove(user_id)
+            await message.reply_text(f"ᴜꜱᴇʀ {user_id} ʜᴀꜱ ʙᴇᴇɴ ᴅɪꜱᴀʟʟᴏᴡᴇᴅ ꜰʀᴏᴍ ᴘᴍɪɴɢ ᴛʜᴇ ʙᴏᴛ")
         else:
-            FLOOD_CTRL = 0
-            return
-        async for message in client.search_messages(
-            chat_id=message.chat.id, query=pm_message, limit=1, from_user="me"
-        ):
-            await message.delete()
-        await message.reply(pm_message, disable_web_page_preview=True)
-        return
-    await message.reply(block_message, disable_web_page_preview=True)
-    await client.block_user(message.chat.id)
-    USERS_AND_WARNS.update({user: 0})
+            await message.reply_text(f"ᴜꜱᴇʀ {user_id} ɪꜱ ɴᴏᴛ ᴄᴜʀʀᴇɴᴛʟʏ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘᴍ ᴛʜᴇ ʙᴏᴛ")
+    else:
+        await message.reply_text("ᴘʟᴇᴀꜱᴇ ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴜꜱᴇʀ'ꜱ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴅɪꜱᴀʟʟᴏᴡ ᴛʜᴇᴍ ꜰʀᴏᴍ ᴘᴍɪɴɢ ᴛʜᴇ ʙᴏᴛ")
+
+
+# Command to view the list of allowed users
+@Client.on_message(filters.command(["allowed"], prefixes=".") & filters.me)
+async def view_allowed_users(client, message):
+    await message.reply_text(f"ᴀʟʟᴏᴡᴇᴅ ᴜꜱᴇʀꜱ: {', '.join(str(user_id) for user_id in ALLOWED_USERS)}")
+
+
+# Register the PM permit guard filter
+Client.on_message(filters.private & filters.create(pmpermit_guard) & ~filters.me)(lambda _, __, ___: None)
