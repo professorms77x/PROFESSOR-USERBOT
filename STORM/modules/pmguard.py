@@ -1,21 +1,18 @@
 from pyrogram import filters, Client
 import asyncio
 from pyrogram.types import Message 
-
-from pyrogram.methods import messages
-from STORM.database.pmpermitdb import get_approved_users, pm_guard
 import STORM.database.pmpermitdb as KEX
+
 LOG_GROUP = "-1002068576120" 
 PM_LOGGER = "-1002068576120"
 FLOOD_CTRL = 0
 ALLOWED = []
 USERS_AND_WARNS = {}
 
-
-async def denied_users(filter, client: Client, message: Message):
-    if not await pm_guard():
+async def denied_users(_, __, message):
+    if not await KEX.pm_guard():
         return False
-    if message.chat.id in (await get_approved_users()):
+    if message.chat.id in (await KEX.get_approved_users()):
         return False
     else:
         return True
@@ -28,51 +25,44 @@ def get_arg(message):
         return ""
     return " ".join(split[1:])
 
-
 @Client.on_message(filters.command("setlimit", ["."]) & filters.me)
 async def pmguard(client, message):
     arg = get_arg(message)
     if not arg:
-        await message.edit("**ꜱᴇᴛ ʟɪᴍɪᴛ ᴛᴏ <ᴄᴏᴜɴᴛ>**")
+        await message.edit("**Set limit to <count>**")
         return
     await KEX.set_limit(int(arg))
-    await message.edit(f"**ʟɪᴍɪᴛ ꜱᴇᴛ ᴛᴏ {arg}**")
-
-
+    await message.edit(f"**Limit set to {arg}**")
 
 @Client.on_message(filters.command("setblockmsg", ["."]) & filters.me)
 async def setpmmsg(client, message):
     arg = get_arg(message)
     if not arg:
-        await message.edit("**ᴡʜᴀᴛ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ꜱᴇᴛ**")
+        await message.edit("**What message to set**")
         return
     if arg == "default":
         await KEX.set_block_message(KEX.BLOCKED)
-        await message.edit("**ʙʟᴏᴄᴋ ᴍᴇꜱꜱᴀɢᴇ ꜱᴇᴛ ᴛᴏ ᴅᴇꜰᴀᴜʟᴛ**")
+        await message.edit("**Block message set to default**")
         return
     await KEX.set_block_message(f"`{arg}`")
-    await message.edit("**ᴄᴜꜱᴛᴏᴍ ʙʟᴏᴄᴋ ᴍᴇꜱꜱᴀɢᴇ ꜱᴇᴛ**")
-
+    await message.edit("**Custom block message set**")
 
 @Client.on_message(filters.command(["allow", "ap", "approve", "a"], ["."]) & filters.me & filters.private)
 async def allow(client, message):
     chat_id = message.chat.id
-    pmpermit, pm_message, limit, block_message = await KEX.get_pm_settings()
     await KEX.allow_user(chat_id)
-    await message.edit(f"**ɪ ʜᴀᴠᴇ ᴀʟʟᴏᴡᴇᴅ [ʏᴏᴜ](tg://user?id={chat_id}) ᴛᴏ ᴘᴍ ᴍʏ ᴍᴀꜱᴛᴇʀ**")
+    await message.edit(f"**I have allowed you to PM my master**")
     async for message in client.search_messages(
         chat_id=message.chat.id, query=pm_message, limit=1, from_user="me"
     ):
         await message.delete()
     USERS_AND_WARNS.update({chat_id: 0})
 
-
 @Client.on_message(filters.command(["deny", "dap", "disapprove", "dapp"], ["."]) & filters.me & filters.private)
 async def deny(client, message):
     chat_id = message.chat.id
     await KEX.deny_user(chat_id)
-    await message.edit(f"**ɪ ʜᴀᴠᴇ ᴅᴇɴɪᴇᴅ [ʏᴏᴜ](tg://user?id={chat_id}) ᴛᴏ ᴘᴍ ᴍʏ ᴍᴀꜱᴛᴇʀ**")
-
+    await message.edit(f"**I have denied you to PM my master**")
 
 @Client.on_message(
     filters.private
@@ -82,13 +72,13 @@ async def deny(client, message):
     & ~filters.me
     & ~filters.bot
 )
-async def reply_pm(app: Client, message):
+async def reply_pm(client, message):
     global FLOOD_CTRL
     pmpermit, pm_message, limit, block_message = await KEX.get_pm_settings()
     user = message.from_user.id
     user_warns = 0 if user not in USERS_AND_WARNS else USERS_AND_WARNS[user]
     if PM_LOGGER:
-        await app.send_message(PM_LOGGER, f"{message.text}")
+        await client.send_message(PM_LOGGER, f"{message.text}")
     if user_warns <= limit - 2:
         user_warns += 1
         USERS_AND_WARNS.update({user: user_warns})
@@ -97,12 +87,12 @@ async def reply_pm(app: Client, message):
         else:
             FLOOD_CTRL = 0
             return
-        async for message in app.search_messages(
+        async for message in client.search_messages(
             chat_id=message.chat.id, query=pm_message, limit=1, from_user="me"
         ):
             await message.delete()
         await message.reply(pm_message, disable_web_page_preview=True)
         return
     await message.reply(block_message, disable_web_page_preview=True)
-    await app.block_user(message.chat.id)
+    await client.block_user(message.chat.id)
     USERS_AND_WARNS.update({user: 0})
