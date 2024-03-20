@@ -21,7 +21,7 @@ async def ping(_, e: Message):
       start = datetime.datetime.now()
       Fuk = await e.reply("⚡")
       end = datetime.datetime.now()
-      ms = (end-start).microseconds / 1000
+      ms = (end-start).microseconds / 100
       await Fuk.edit_text(f"ꜱ ᴛ ᴏ ʀ ᴍ 🥀\nᴛʜᴇ ᴄᴀʟᴍ ʙᴇꜰᴏʀᴇ ᴛʜᴇ ꜱᴛᴏʀᴍ ⚡\n» `{ms} ᴍꜱ`")
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["reboot", "restart"], ["."]))
