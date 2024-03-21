@@ -33,21 +33,6 @@
 
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-darkgreen)](https://t.me/STORM_TECHH)
 
-# 𝐂𝐑𝐄𝐃𝐈𝐓
-
-
-- 𝐊𝐮𝐧𝐚𝐥 🥀
-
- ↳ [𝐊𝐮𝐧𝐚𝐥](https://github.com/VARC9210)
-
-- 𝐑𝐢𝐙𝐨𝐞𝐋 🎉
-
- ↳ [𝐑𝐢𝐙𝐨𝐞𝐋](https://github.com/MrRizoel)
-
-- 𝐑𝐢𝐤 ✨
-
- ↳ [𝐑𝐢𝐤](https://github.com/its-your-invi)
-
 # 𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑
 
 
