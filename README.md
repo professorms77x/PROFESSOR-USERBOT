@@ -24,7 +24,7 @@
 # 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-USERBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-EXE)
 
 # 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌
 
