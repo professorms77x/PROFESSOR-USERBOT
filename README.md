@@ -3,7 +3,7 @@
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓</h4>
 
 <p align="center">
-  <img src="./Storm.jpeg" alt="Logo">
+  <img src="STORMDB/Storm.jpeg" alt="Logo">
 </p>
 
 <p align="center">
