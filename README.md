@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 <p align="center">──「 𝐒 𝐓 𝐎 𝐑 𝐌 🥀」──</p>
  
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓</h4>
@@ -19,7 +21,11 @@
     <a href="https://t.me/STORM_TECHH"><img src="https://img.shields.io/badge/Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
     <a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
     </p>
+    
+## 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
 
+
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=VARC9210&repo=STORM-USERBOT\&theme=dark)
 
 # 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓
 
