@@ -1,5 +1,6 @@
 from os import getenv
-from STORMDB.data import STORMS
+from STORM import STORMS
+
 
 API_ID = int(getenv("API_ID", "25981592"))
 API_HASH = getenv("API_HASH", "709f3c9d34d83873d3c7e76cdd75b866")
