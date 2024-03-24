@@ -22,7 +22,7 @@
     <a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
     </p>
     
-## 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
+# 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
 
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=VARC9210&repo=STORM-USERBOT\&theme=dark)
@@ -30,14 +30,18 @@
 # 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-EXE)
+<a href="https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-EXE"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a>
+
+# 𝐕𝐏𝐒/𝐋𝐎𝐂𝐀𝐋𝐋𝐘 𝐃𝐄𝐏𝐋𝐎𝐘
+
+ᴡᴇ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴄᴍᴅꜱ ꜱᴏᴏɴ....
 
 # 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌
 
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-darkgreen)](https://t.me/STORM_CHATZ)
+<a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-sᴜᴘᴘᴏʀᴛ-back?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a>
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-darkgreen)](https://t.me/STORM_TECHH)
+<a href="https://t.me/STORM_TECHH"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-ᴜᴘᴅᴀᴛᴇs-back?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a>
 
 # 𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑
 
