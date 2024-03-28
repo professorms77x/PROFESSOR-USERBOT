@@ -38,7 +38,6 @@
 
 ## ᴛᴇʟᴇɢʀᴀᴍ
 
-
 [![ᴄʜᴀᴛ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/kexx_xd)
 
 [![Telegram](https://img.shields.io/badge/Telegram-groups-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)](https://t.me/NXETWORK/5)
@@ -47,12 +46,21 @@
 
 ## ᴅɪꜱᴄʟᴀɪᴍᴇʀ
 
-
 ```console
                       ❗️YOU ARE FOREWARNED❗️
 
                        ⚠️ ᴡᴀʀɴɪɴɢ ꜰᴏʀ ʏᴏᴜ ⚠️
 
+! ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ ᴍᴀʏ ɢᴇᴛ ʙᴀɴɴᴇᴅ.
+! ɪ ᴀᴍ ɴᴏᴛ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ꜰᴏʀ ᴀɴʏ ɪᴍᴘʀᴏᴘᴇʀ ᴜꜱᴇ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ
+! ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɪɴᴛᴇɴᴅᴇᴅ ꜰᴏʀ ᴛʜᴇ ᴘᴜʀᴘᴏꜱᴇ ᴏꜰ ʜᴀᴠɪɴɢ ꜰᴜɴ ᴡɪᴛʜ ᴍᴇᴍᴇꜱ,
+! ᴀꜱ ᴡᴇʟʟ ᴀꜱ ᴇꜰꜰɪᴄɪᴇɴᴛʟʏ ᴍᴀɴᴀɢɪɴɢ ɢʀᴏᴜᴘꜱ.
+! ʏᴏᴜ ᴇɴᴅᴇᴅ ᴜᴘ ꜱᴘᴀᴍᴍɪɴɢ ɢʀᴏᴜᴘꜱ, ɢᴇᴛᴛɪɴɢ ʀᴇᴘᴏʀᴛᴇᴅ ʟᴇꜰᴛ ᴀɴᴅ ʀɪɢʜᴛ,
+! ᴀɴᴅ ʏᴏᴜ ᴇɴᴅᴇᴅ ᴜᴘ ɪɴ ᴀ ꜰɪɴᴀʟᴇ ʙᴀᴛᴛʟᴇ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅ ᴀᴛ ᴛʜᴇ ᴇɴᴅ
+! ᴛᴇʟᴇɢʀᴀᴍ ᴛᴇᴀᴍ ᴅᴇʟᴇᴛᴇᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ?
+! ᴀɴᴅ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ, ᴛʜᴇɴ ʏᴏᴜ ᴘᴏɪɴᴛᴇᴅ ʏᴏᴜʀ ꜰɪɴɢᴇʀꜱ ᴀᴛ ᴜꜱ
+! ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴀᴄᴏᴏᴜɴᴛ ᴅᴇʟᴇᴛᴇᴅ?
+! ɪ ᴡɪʟʟ ʙᴇ ʀᴏʟʟɪɴɢ ᴏɴ ᴛʜᴇ ꜰʟᴏᴏʀ ʟᴀᴜɢʜɪɴɢ ᴀᴛ ʏᴏᴜ.
 ! We won't be responsible for any kind of ban due to this bot.
 ! Bot Spam was made for fun purpose and to make group management easier.
 ! It's your concern if you spam and gets your account banned.
@@ -63,3 +71,7 @@
 
                💖 Thanks for using our bot 💖
 ```
+
+## ʟɪᴄᴇɴᴄᴇ 
+
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
