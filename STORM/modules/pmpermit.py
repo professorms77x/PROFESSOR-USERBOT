@@ -18,7 +18,7 @@ TEXT = """
 • **ᴡᴀʀɴ ʟɪᴍɪᴛs** » {}      
 ╰• **ʏᴏᴜʀ ᴡᴀʀɴs** » {}
 ➖➖➖➖➖➖➖➖➖➖➖
-•           [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/STORM_CHATZ)
+•           **[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/STORM_CHATZ)**
 """
 
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
