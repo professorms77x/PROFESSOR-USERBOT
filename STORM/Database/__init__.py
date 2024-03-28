@@ -1,5 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-MONGO_URI = "mongodb+srv://riyihe1925:mIroEVXcVCGGwAFK@cluster0.g6ojimu.mongodb.net/?retryWrites=true&w=majority"
+from config import MURL
+MONGO_URI = "MURL"
 mongo = MongoClient(MONGO_URI)
 db = mongo["Client"]
 
