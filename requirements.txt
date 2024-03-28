@@ -1,0 +1,17 @@
+Pillow
+pymediainfo
+flask
+flask_restful
+pyrogram==2.0.105
+TgCrypto
+heroku3
+aiohttp
+requests
+random2
+asyncio
+gtts
+googlesearch-python
+openai==0.28
+beautifulsoup4
+google
+motor
