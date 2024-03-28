@@ -61,14 +61,13 @@
 ! ᴀɴᴅ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ, ᴛʜᴇɴ ʏᴏᴜ ᴘᴏɪɴᴛᴇᴅ ʏᴏᴜʀ ꜰɪɴɢᴇʀꜱ ᴀᴛ ᴜꜱ
 ! ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴀᴄᴏᴏᴜɴᴛ ᴅᴇʟᴇᴛᴇᴅ?
 ! ɪ ᴡɪʟʟ ʙᴇ ʀᴏʟʟɪɴɢ ᴏɴ ᴛʜᴇ ꜰʟᴏᴏʀ ʟᴀᴜɢʜɪɴɢ ᴀᴛ ʏᴏᴜ.
-! We won't be responsible for any kind of ban due to this bot.
-! Bot Spam was made for fun purpose and to make group management easier.
-! It's your concern if you spam and gets your account banned.
-! Also, Forks won't be entertained.
-! If you fork this repo and edit plugins, it's your concern for further updates.
-! Forking Repo is fine. But if you edit something we will not provide any help.
-! In short, Fork At Your Own Risk    
-
+! ᴡᴇ ᴡᴏɴ'ᴛ ʙᴇ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ꜰᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ ʙᴀɴ ᴅᴜᴇ ᴛᴏ ᴛʜɪꜱ ʙᴏᴛ.
+! ʙᴏᴛ ꜱᴘᴀᴍ ᴡᴀꜱ ᴍᴀᴅᴇ ꜰᴏʀ ꜰᴜɴ ᴘᴜʀᴘᴏꜱᴇ ᴀɴᴅ ᴛᴏ ᴍᴀᴋᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴇᴀꜱɪᴇʀ.
+! ɪᴛ'ꜱ ʏᴏᴜʀ ᴄᴏɴᴄᴇʀɴ ɪꜰ ʏᴏᴜ ꜱᴘᴀᴍ ᴀɴᴅ ɢᴇᴛꜱ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ʙᴀɴɴᴇᴅ.
+! ᴀʟꜱᴏ, ꜰᴏʀᴋꜱ ᴡᴏɴ'ᴛ ʙᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴇᴅ.
+! ɪꜰ ʏᴏᴜ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ ᴀɴᴅ ᴇᴅɪᴛ ᴘʟᴜɢɪɴꜱ, ɪᴛ'ꜱ ʏᴏᴜʀ ᴄᴏɴᴄᴇʀɴ ꜰᴏʀ ꜰᴜʀᴛʜᴇʀ ᴜᴘᴅᴀᴛᴇꜱ.
+! ꜰᴏʀᴋɪɴɢ ʀᴇᴘᴏ ɪꜱ ꜰɪɴᴇ. ʙᴜᴛ ɪꜰ ʏᴏᴜ ᴇᴅɪᴛ ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇ ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ʜᴇʟᴘ.
+! ɪɴ ꜱʜᴏʀᴛ, ꜰᴏʀᴋ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ
                💖 Thanks for using our bot 💖
 ```
 
