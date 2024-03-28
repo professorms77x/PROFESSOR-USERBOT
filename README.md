@@ -22,28 +22,30 @@
     <a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
     </p>
     
-# 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
+## ʀᴇᴘᴏ ꜱᴛᴀᴛꜱ
 
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=VARC9210&repo=STORM-USERBOT\&theme=dark)
 
-# 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓
+## ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 
-<a href="https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-EXE"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-USERBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a>
 
-# 𝐕𝐏𝐒/𝐋𝐎𝐂𝐀𝐋𝐋𝐘 𝐃𝐄𝐏𝐋𝐎𝐘
+## ᴠᴘꜱ/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏᴛᴍᴇɴᴛ
 
 ᴡᴇ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴄᴍᴅꜱ ꜱᴏᴏɴ....
 
-# 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌
+## ᴛᴇʟᴇɢʀᴀᴍ
 
 
-<a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-sᴜᴘᴘᴏʀᴛ-back?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a>
+[![ᴄʜᴀᴛ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/kexx_xd)
 
-<a href="https://t.me/STORM_TECHH"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-ᴜᴘᴅᴀᴛᴇs-back?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a>
+[![Telegram](https://img.shields.io/badge/Telegram-groups-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)](https://t.me/NXETWORK/5)
 
-# 𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑
+[![Telegram](https://img.shields.io/badge/Telegram-channels-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)](https://t.me/NXETWORK/6)
+
+## ᴅɪꜱᴄʟᴀɪᴍᴇʀ
 
 
 ```console
