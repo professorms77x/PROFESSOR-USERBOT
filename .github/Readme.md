@@ -5,7 +5,7 @@
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓</h4>
 
 <p align="center">
-  <img src="STORMDB/Storm.jpeg" alt="Logo">
+  <img src="https://graph.org/file/dc415607712c2ce5b37be.jpg">
 </p>
 
 <p align="center">
