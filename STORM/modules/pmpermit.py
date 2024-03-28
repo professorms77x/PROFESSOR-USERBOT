@@ -7,9 +7,9 @@ pm_watcher = 5
 KEX = PM_PIC
 
 TEXT = """
-•            [**ꜱᴛᴏʀᴍ**](https://github.com/VARC9210/STORM-USERBOT)
+•            **[ꜱᴛᴏʀᴍ](https://github.com/VARC9210/STORM-USERBOT)**
 ╰• **ᴏᴡɴᴇʀ** » {}
-• **ᴛʜɪs ɪs ᴋᴇx ᴘᴍ sᴇᴄᴜʀɪᴛʏ**
+• **ᴛʜɪs ɪs ᴋᴇx ᴘᴍ sᴇᴄᴜʀɪᴛʏ 🛡️**
 ➖➖➖➖➖➖➖➖➖➖➖ 
     **ʜᴇʏ ʙᴜᴅᴅʏ** 🥀
     **ɪғ ʏᴏᴜ sᴘᴀᴍ ʜᴇʀᴇ ᴡɪᴛʜᴏᴜᴛ ᴍʏ**
