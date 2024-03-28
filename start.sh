@@ -6,6 +6,6 @@ echo "     | (___ | |_) || |  | |   | |     "
 echo "     \___ \ |  _ < | |  | |   | |     "
 echo "     ____) || |_) || |__| |   | |     "
 echo "    |_____/ |____/  \____/    |_|     "
-echo "                                                            "
+echo "                                      "
 
 python3 server.py & python3 STORM.py
