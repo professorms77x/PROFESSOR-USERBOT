@@ -71,6 +71,10 @@
         "OWNER_ID": {
             "required": true
         },
+        "MANGO_URL": {
+            "description": "ᴜꜱᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴀɴɢᴏ ᴅʙ ᴜʀʟ ꜰᴏʀ ᴘᴍ ᴘᴇʀᴍɪᴛ 🌿",               
+            "required": true
+        }        
         "OPENAIKEY": {
             "description": "ᴛᴏ ᴜꜱᴇ ᴀɪ ʟᴏᴀᴅᴇᴅ ꜰᴇᴀᴛᴜʀᴇꜱ ɪɴ ᴜꜱᴇʀʙᴏᴛ 🤖",            
             "required": false
