@@ -8,4 +8,4 @@ echo "     ____) || |_) || |__| |   | |     "
 echo "    |_____/ |____/  \____/    |_|     "
 echo "                                                            "
 
-python3 app.py & python3 STORM.py
+python3 server.py & python3 STORM.py
