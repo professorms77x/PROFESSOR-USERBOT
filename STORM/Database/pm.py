@@ -1,73 +1,54 @@
-from STORM.Database import db
-
-pmdb = db.pm
-pmwarn = db.pmwarn
-pmap = db.pmapprove
-warner = db.warner
+# Simulated data storage using Python dictionaries
+pm_data = {"pm": 0}  # Simulates the "pm" collection
+pmwarn_data = {"w": "w", "warns": 0}  # Simulates the "pmwarn" collection
+pmap_data = []  # Simulates the "pmapprove" collection
+warner_data = {}  # Simulates the "warner" collection
 
 async def toggle_pm():
-    x = await pmdb.find_one({"pm": 0})
-    if x:
-        return await pmdb.delete_one({"pm": 0})
+    global pm_data
+    if pm_data:
+        pm_data = {}
     else:
-        return await pmdb.insert_one({"pm": 0})
+        pm_data = {"pm": 0}
 
 async def is_pm_on():
-    x = await pmdb.find_one({"pm": 0})
-    if x:
-        return True
-    return False
+    global pm_data
+    return bool(pm_data)
 
 async def update_warns(w: int):
-    await pmwarn.update_one({"w": "w"}, {"$set": {"warns": w}}, upsert=True)
+    global pmwarn_data
+    pmwarn_data["warns"] = w
 
 async def limit():
-    x = await pmwarn.find_one({"w": "w"})
-    if not x:
-        return 0
-    return x["warns"]
+    global pmwarn_data
+    return pmwarn_data.get("warns", 0)
 
 async def approve(user_id: int):
-    x = await pmap.find_one({"user_id": user_id})
-    if x:
-        return
-    await pmap.insert_one({"user_id": user_id})
+    global pmap_data
+    if user_id not in pmap_data:
+        pmap_data.append(user_id)
 
 async def disapprove(user_id: int):
-    x = await pmap.find_one({"user_id": user_id})
-    if not x:
-        return
-    await pmap.delete_one({"user_id": user_id})
+    global pmap_data
+    if user_id in pmap_data:
+        pmap_data.remove(user_id)
 
 async def is_approved(user_id: int):
-    x = await pmap.find_one({"user_id": user_id})
-    if x:
-        return True
-    return False
+    global pmap_data
+    return user_id in pmap_data
 
 async def list_approved():
-    x = pmap.find({"user_id": {"$gt": 0}})
-    if not x:
-        return []
-    g = []
-    for h in await x.to_list(length=1000000000):
-        g.append(h["user_id"])
-    return g
+    global pmap_data
+    return pmap_data
 
 async def add_warn(user_id: int):
-    x = await warner.find_one({"user_id": user_id})
-    if x:
-        l = x["warns"]
-        l += 1
-        return await warner.update_one({"user_id": user_id}, {"$set": {"warns": l}}, upsert=True)
-    return await warner.update_one({"user_id": user_id}, {"$set": {"warns": 1}}, upsert=True)
+    global warner_data
+    warner_data[user_id] = warner_data.get(user_id, 0) + 1
 
 async def reset_warns(user_id: int):
-    return await warner.update_one({"user_id": user_id}, {"$set": {"warns": 0}}, upsert=True)
+    global warner_data
+    warner_data[user_id] = 0
 
 async def get_warns(user_id: int):
-    x = await warner.find_one({"user_id": user_id})
-    if x:
-        l = x["warns"]
-        return l
-    return 0
+    global warner_data
+    return warner_data.get(user_id, 0)
