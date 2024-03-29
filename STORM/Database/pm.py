@@ -1,6 +1,6 @@
 # Simulated data storage using Python dictionaries
 pm_data = {"pm": 0}  # Simulates the "pm" collection
-pmwarn_data = {"w": "w", "warns": 0}  # Simulates the "pmwarn" collection
+pmwarn_data = {"w": "w", "warns": 5}  # Simulates the "pmwarn" collection
 pmap_data = []  # Simulates the "pmapprove" collection
 warner_data = {}  # Simulates the "warner" collection
 
