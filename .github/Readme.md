@@ -82,6 +82,10 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 
 [![Telegram](https://img.shields.io/badge/Telegram-channels-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)](https://t.me/NXETWORK/6)
 
+## ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴘᴏꜱɪᴛᴏʀʏ
+
+[**KEX**](https://t.me/kexx_xd) 🌿
+
 ## ᴅɪꜱᴄʟᴀɪᴍᴇʀ
 
 ```console
@@ -113,5 +117,8 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 ## ʟɪᴄᴇɴᴄᴇ 
 
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+
+#### ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜʀ ᴍᴜᴍ ᴍɪɴᴇ...
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
