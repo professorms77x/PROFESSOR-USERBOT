@@ -9,6 +9,7 @@ HELP_PIC = getenv("HELP_PIC", "https://graph.org/file/e0fcedd2df8ac254bb506.jpg"
 OWNER_ID = int(getenv("OWNER_ID", "6257927828"))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+YOUR_YOUTUBE_API_KEY = "AIzaSyBwEFpo0DHH_o7Sv125tE3h8JOwx7hoooU"
 OPENAIKEY = getenv("OPENAIKEY")
 PM_PIC = "https://graph.org/file/bf1fdd404a82d508a7ed5.jpg"
 SESSION2 = getenv("SESSION2")
@@ -20,7 +21,6 @@ SESSION7 = getenv("SESSION7")
 SESSION8 = getenv("SESSION8")
 SESSION9 = getenv("SESSION9")
 SESSION10 = getenv("SESSION10")
-
 SUDOS = getenv("SUDO_USERS", None)
 SUDO_USERS = []
 if SUDOS:
