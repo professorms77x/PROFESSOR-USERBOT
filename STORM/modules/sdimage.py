@@ -1,21 +1,30 @@
 import os
+from pyrogram import Client, filters
 
-from ... import *
-from pyrogram import filters
+# Initialize the Pyrogram Client
+app = Client("my_account")
 
-
-@app.on_message(cdz(["😋🥰", "op", "wow", "super", "😋😍"])
-    & filters.private & filters.me)
-async def self_media(client, message):
+# Define the handler for processing messages containing trigger words using regex pattern
+@Client.on_message(filters.regex(r"😋🥰|op|wow|super|😋😍") & filters.private & filters.me)
+async def self_media_handler(client, message):
     try:
+        # Check if the message is a reply
         replied = message.reply_to_message
         if not replied:
             return
+        
+        # Check if the replied message contains photo or video
         if not (replied.photo or replied.video):
             return
+        
+        # Download the media
         location = await client.download_media(replied)
+        
+        # Send the downloaded media as a document to saved messages
         await client.send_document("me", location)
+        
+        # Remove the downloaded media file
         os.remove(location)
     except Exception as e:
-        print("Error: `{e}`")
-        return
+        # Print any errors that occur during processing
+        print(f"Error: {e}")
