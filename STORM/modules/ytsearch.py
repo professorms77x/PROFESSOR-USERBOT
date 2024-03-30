@@ -1,8 +1,6 @@
 from pyrogram import Client
 from googleapiclient.discovery import build
-from config import YOUR_YOUTUBE_API_KEY
 
-# Function to perform YouTube search
 def youtube_search(api_key, query, max_results=5):
     youtube = build('youtube', 'v3', developerKey=api_key)
     request = youtube.search().list(
@@ -16,7 +14,7 @@ def youtube_search(api_key, query, max_results=5):
 async def handle_message(client, message):
     if message.text.startswith('.ytsearch'):
         query = message.text.replace('.ytsearch', '').strip()
-        api_key = 'YOUR_YOUTUBE_API_KEY'
+        api_key = 'AIzaSyAlKB8YvGpSbsHX7pwlDi3CVMODUqHFGkw'
         results = youtube_search(api_key, query)
         for result in results:
             video_id = result['id']['videoId']
