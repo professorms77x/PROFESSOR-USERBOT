@@ -22,6 +22,11 @@
     <a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
     </p>
     
+## ᴠɪꜱɪᴛᴏʀꜱ
+ 
+![](https://count.getloli.com/get/@VARC9210.github.STORM-USERBOT)
+</br>
+
 ## ʀᴇᴘᴏ ꜱᴛᴀᴛꜱ
 
 
