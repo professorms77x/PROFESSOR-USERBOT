@@ -29,8 +29,41 @@
 
 ## ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
+## ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 <a href="https://heroku.com/deploy?template=https://github.com/VARC9210/STORM-USERBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a>
+
+## ᴏᴋᴛᴇᴛᴏ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
+
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/VARC9210/STORM-USERBOT">
+  <img
+src="https://img.shields.io/badge/Deploy%20On%20Okteto-lightpink?style=for-the-badge&logo=Okteto" width="220" height="38.45""/>
+
+## ᴍᴏɢᴇɴɪᴜꜱ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
+
+<a href="https://mogenius.com"> 
+<img 
+src="https://img.shields.io/badge/Deploy%20On%20Mogenius-grey?style=for-the-badge&logo=Mogenius" width="220" height="38.45""/>
+</a>
+
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 
+
+<a href="https://railway.app/new/template?template=https://github.com/VARC9210/STORM-USERBOT-Deploy"> <img src="https://railway.app/button.svg"/></a>
+
+## ᴅᴇᴘʟᴏʏ ᴏɴ ꜱᴄᴀʟɪɴɢᴏ
+
+<a
+href="https://scalingo.com/deploy?template=https://github.com/VARC9210/STORM-USERBOT"><img src="https://img.shields.io/badge/Deploy%20On%20Scalingo-silver?style=for-the-badge&logo=Scalingo" width="220" height="38.45"/></a>
+
+## ᴅᴇᴘʟᴏʏ ᴏɴ ᴜꜰꜰɪᴢᴢɪ
+
+<a
+href="https://uffizzi.com/deploy?template=https://github.com/VARC9210/STORM-USERBOT"><img src="https://img.shields.io/badge/Deploy%20On%20Uffizzi-gold?style=for-the-badge&logo=Uffizzi" width="220" height="38.45"/></a>
+
+## ᴄʟᴇᴠᴇʀ ᴄʟᴏᴜᴅ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
+
+<a
+href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/STORM-USERBOT"><img src="https://img.shields.io/badge/Deploy%20Clever%20Cloud-blue?style=for-the-badge&logo=Clever" width="220" height="38.45"/></a>
 
 ## ᴠᴘꜱ/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏᴛᴍᴇɴᴛ
 
