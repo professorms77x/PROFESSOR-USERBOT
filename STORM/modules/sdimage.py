@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, filters
 
-@app.on_message(cdz(["😋🥰", "op", "wow", "super", "😋😍"])
+@Client.on_message(cdz(["😋🥰", "op", "wow", "super", "😋😍"])
     & filters.private & filters.me)
 async def self_media(client, message):
     try:
