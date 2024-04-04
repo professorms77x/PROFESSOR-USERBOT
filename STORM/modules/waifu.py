@@ -26,6 +26,7 @@ async def waifu(client, message):
         "https://graph.org/file/cc3e6ca9fa4bccfa99a32.jpg",
     ]
     waifu_url = random.choice(wdata)
+    waifuaptext = "**ᴀ ʀᴀɴᴅᴏᴍ ᴡᴀɪꜰᴜ ᴀᴘᴘᴇᴀʀᴇᴅ 🫠**\n\n**ʙʏ [ꜱᴛᴏʀᴍ ᴜꜱᴇʀʙᴏᴛ](https://github.com/VARC9210/STORM-USERBOT)**"
 
-    await message.reply_photo(waifu_url)
+    await message.edit(waifu_url)(waifuaptext)
 
