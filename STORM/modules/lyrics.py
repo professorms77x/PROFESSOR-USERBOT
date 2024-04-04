@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from config import SUDO_USERS
 import lyricsgenius
-
+SUDO_USER = SUDO_USERS
 genius = lyricsgenius.Genius("jPnYlXn0YEF4xJLJJJ0V2fngWTmyK4c9scfIxFMpofO4-aKIWJ8t9f_11oCeZCLj")
 async def search_lyrics(song_title, artist_name):
     try:
