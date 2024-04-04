@@ -25,7 +25,7 @@ def get_text(message: Message) -> [None, str]:
         return None
 
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["video"], ["."]))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["video", "v"], ["."]))
 async def yt_vid(client: Client, message: Message):
     input_st = message.text
     input_str = input_st.split(" ", 1)[1]
