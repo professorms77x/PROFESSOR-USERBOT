@@ -16,7 +16,7 @@ async def search_lyrics(song_title, artist_name):
     except Exception as e:
         return f"ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ: {str(e)}"
         
-@Client.on_message(filters.command(["l", "lyrics"], ".") & filters.me | filters.user(SUDO_USERS))
+@Client.on_message(filters.command([".l", ".lyrics"]) & filters.me | filters.user(SUDO_USERS))
 async def handle_lyrics_command(client: Client, message: Message):
     try:
         # Extract command arguments
