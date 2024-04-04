@@ -18,3 +18,4 @@ motor
 google-api-python-client
 lyricsgenius
 telegraph
+wget
