@@ -17,3 +17,4 @@ google
 motor
 google-api-python-client
 lyricsgenius
+telegraph
