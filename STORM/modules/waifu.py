@@ -26,4 +26,4 @@ async def waifu(client, message):
         "https://graph.org/file/cc3e6ca9fa4bccfa99a32.jpg",
     ]
     waifu_url = random.choice(wdata)
-    await message.edit(waifu_url)
+    await message.reply_photo(waifu_url)
