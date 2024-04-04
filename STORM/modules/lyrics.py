@@ -5,6 +5,7 @@ from pyrogram.types import Message
 from config import SUDO_USERS
 import lyricsgenius
 SUDO_USER = SUDO_USERS
+hl = "."
 genius = lyricsgenius.Genius("jPnYlXn0YEF4xJLJJJ0V2fngWTmyK4c9scfIxFMpofO4-aKIWJ8t9f_11oCeZCLj")
 async def search_lyrics(song_title, artist_name):
     try:
@@ -16,7 +17,7 @@ async def search_lyrics(song_title, artist_name):
     except Exception as e:
         return f"ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ: {str(e)}"
         
-@Client.on_message(filters.command([".l", ".lyrics"]) & (filters.me | filters.user(SUDO_USERS)))
+@Client.on_message(filters.command(["lyrics", "l"], prefixes=hl) & filters.user(SUDO_USERS))
 async def handle_lyrics_command(client: Client, message: Message):
     try:
         # Extract command arguments
