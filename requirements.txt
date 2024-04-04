@@ -11,6 +11,7 @@ random2
 asyncio
 gtts
 googlesearch-python
+youtubesearchpython
 openai==0.28
 beautifulsoup4
 google
