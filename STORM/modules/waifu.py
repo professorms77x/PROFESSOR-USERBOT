@@ -27,6 +27,7 @@ async def waifu(client, message):
     ]
     waifu_url = random.choice(wdata)
     waifuaptext = "**ᴀ ʀᴀɴᴅᴏᴍ ᴡᴀɪꜰᴜ ᴀᴘᴘᴇᴀʀᴇᴅ 🫠**\n\n**ʙʏ [ꜱᴛᴏʀᴍ ᴜꜱᴇʀʙᴏᴛ](https://github.com/VARC9210/STORM-USERBOT)**"
+    
+    final_text = f"{waifu_url}\n\n{waifuaptext}"
 
-    await message.edit(waifu_url)(waifuaptext)
-
+    await message.edit(final_text)
