@@ -3,7 +3,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 from config import SUDO_USERS
 from STORM.helper.PyroHelpers import ReplyCheck
-
+SUDO_USER = SUDO_USERS
 @Client.on_message(
     filters.command(["m", "music"], ".") & (filters.me | filters.user(SUDO_USER))
 )
