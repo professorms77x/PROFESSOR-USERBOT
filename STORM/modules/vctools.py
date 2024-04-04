@@ -8,7 +8,7 @@ from pyrogram.raw.types import InputGroupCall, InputPeerChannel, InputPeerChat
 from pyrogram.types import Message
 from config import SUDO_USERS
 from pyrogram.types import Message
-
+SUDO_USER = SUDO_USERS
 def get_arg(message: Message):
     msg = message.text
     msg = msg.replace(" ", "", 1) if msg[1] == " " else msg
