@@ -1,8 +1,8 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">──「 𝐒 𝐓 𝐎 𝐑 𝐌 🥀」──</p>
- 
-<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓</h4>
+<p align="center">──「 𝐒 𝐓 𝐎 𝐑 𝐌 🥀」──</p> 
+    
+<h2 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓<h2>
 
 <p align="center">
   <img src="https://graph.org/file/dc415607712c2ce5b37be.jpg">
@@ -22,7 +22,7 @@
     <a href="https://t.me/STORM_CHATZ"><img src="https://img.shields.io/badge/Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
     </p>
     
-## ᴠɪꜱɪᴛᴏʀꜱ
+<b> ᴠɪꜱɪᴛᴏʀꜱ <img src="https://github.com/VARC9210/STORM-USERBOT/blob/main/res/Z30J.gif" width="20px"></b><br>
  
 ![](https://count.getloli.com/get/@VARC9210.github.STORM-USERBOT)
 </br>
@@ -84,6 +84,8 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 
 ## ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴘᴏꜱɪᴛᴏʀʏ
 
+<h2> <img src="https://github.com/Snehashish06/Snehashish06/blob/main/res/cat_gif.gif" width="190px"> KEX 🌿 <img src = "https://github.com/Snehashish06/Snehashish06/blob/main/res/cat1.gif" width="190px"> </h1>
+
 [**KEX**](https://t.me/kexx_xd) 🌿
 
 ## ᴅɪꜱᴄʟᴀɪᴍᴇʀ
@@ -118,7 +120,7 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-#### ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜʀ ᴍᴜᴍ ᴍɪɴᴇ...
+<b> ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜʀ ᴍᴜᴍ ᴍɪɴᴇ... <img src="https://github.com/VARC9210/STORM-USERBOT/blob/main/res/7VB.gif" width="80px"></b><br>
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
