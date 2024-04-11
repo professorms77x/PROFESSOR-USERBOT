@@ -42,7 +42,7 @@ async def vcraid(_, e: Message):
     chat_id = chat.id
     aud = choice(aud_list) 
     if inp:
-        bot = await hero.edit_text("» __sᴛᴀʀᴛɪɴɢ ʀᴀɪᴅ__")
+        bot = await hero.edit_text("» sᴛᴀʀᴛɪɴɢ ʀᴀɪᴅ")
         link = f"https://github.com/VARC9210{aud[1:]}"
         dl = aud
         songname = aud[18:]
