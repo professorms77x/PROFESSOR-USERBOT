@@ -89,29 +89,29 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 ## ᴅɪꜱᴄʟᴀɪᴍᴇʀ
 
 ```console
-                      ❗️YOU ARE FOREWARNED❗️
+** ❗️YOU ARE FOREWARNED❗️
 
-                       ⚠️ ᴡᴀʀɴɪɴɢ ꜰᴏʀ ʏᴏᴜ ⚠️
+ ⚠️ warning for you ⚠️
 
-! ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ ᴍᴀʏ ɢᴇᴛ ʙᴀɴɴᴇᴅ.
-! ɪ ᴀᴍ ɴᴏᴛ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ꜰᴏʀ ᴀɴʏ ɪᴍᴘʀᴏᴘᴇʀ ᴜꜱᴇ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ
-! ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɪɴᴛᴇɴᴅᴇᴅ ꜰᴏʀ ᴛʜᴇ ᴘᴜʀᴘᴏꜱᴇ ᴏꜰ ʜᴀᴠɪɴɢ ꜰᴜɴ ᴡɪᴛʜ ᴍᴇᴍᴇꜱ,
-! ᴀꜱ ᴡᴇʟʟ ᴀꜱ ᴇꜰꜰɪᴄɪᴇɴᴛʟʏ ᴍᴀɴᴀɢɪɴɢ ɢʀᴏᴜᴘꜱ.
-! ʏᴏᴜ ᴇɴᴅᴇᴅ ᴜᴘ ꜱᴘᴀᴍᴍɪɴɢ ɢʀᴏᴜᴘꜱ, ɢᴇᴛᴛɪɴɢ ʀᴇᴘᴏʀᴛᴇᴅ ʟᴇꜰᴛ ᴀɴᴅ ʀɪɢʜᴛ,
-! ᴀɴᴅ ʏᴏᴜ ᴇɴᴅᴇᴅ ᴜᴘ ɪɴ ᴀ ꜰɪɴᴀʟᴇ ʙᴀᴛᴛʟᴇ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅ ᴀᴛ ᴛʜᴇ ᴇɴᴅ
-! ᴛᴇʟᴇɢʀᴀᴍ ᴛᴇᴀᴍ ᴅᴇʟᴇᴛᴇᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ?
-! ᴀɴᴅ ᴀꜰᴛᴇʀ ᴛʜᴀᴛ, ᴛʜᴇɴ ʏᴏᴜ ᴘᴏɪɴᴛᴇᴅ ʏᴏᴜʀ ꜰɪɴɢᴇʀꜱ ᴀᴛ ᴜꜱ
-! ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴀᴄᴏᴏᴜɴᴛ ᴅᴇʟᴇᴛᴇᴅ?
-! ɪ ᴡɪʟʟ ʙᴇ ʀᴏʟʟɪɴɢ ᴏɴ ᴛʜᴇ ꜰʟᴏᴏʀ ʟᴀᴜɢʜɪɴɢ ᴀᴛ ʏᴏᴜ.
-! ᴡᴇ ᴡᴏɴ'ᴛ ʙᴇ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ꜰᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ ʙᴀɴ ᴅᴜᴇ ᴛᴏ ᴛʜɪꜱ ʙᴏᴛ.
-! ʙᴏᴛ ꜱᴘᴀᴍ ᴡᴀꜱ ᴍᴀᴅᴇ ꜰᴏʀ ꜰᴜɴ ᴘᴜʀᴘᴏꜱᴇ ᴀɴᴅ ᴛᴏ ᴍᴀᴋᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴇᴀꜱɪᴇʀ.
-! ɪᴛ'ꜱ ʏᴏᴜʀ ᴄᴏɴᴄᴇʀɴ ɪꜰ ʏᴏᴜ ꜱᴘᴀᴍ ᴀɴᴅ ɢᴇᴛꜱ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ʙᴀɴɴᴇᴅ.
-! ᴀʟꜱᴏ, ꜰᴏʀᴋꜱ ᴡᴏɴ'ᴛ ʙᴇ ᴇɴᴛᴇʀᴛᴀɪɴᴇᴅ.
-! ɪꜰ ʏᴏᴜ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ ᴀɴᴅ ᴇᴅɪᴛ ᴘʟᴜɢɪɴꜱ, ɪᴛ'ꜱ ʏᴏᴜʀ ᴄᴏɴᴄᴇʀɴ ꜰᴏʀ ꜰᴜʀᴛʜᴇʀ ᴜᴘᴅᴀᴛᴇꜱ.
-! ꜰᴏʀᴋɪɴɢ ʀᴇᴘᴏ ɪꜱ ꜰɪɴᴇ. ʙᴜᴛ ɪꜰ ʏᴏᴜ ᴇᴅɪᴛ ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇ ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ʜᴇʟᴘ.
-! ɪɴ ꜱʜᴏʀᴛ, ꜰᴏʀᴋ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ
+! your telegram account may get banned.
+! i am not reꜱponꜱible for any improper uꜱe of thiꜱ bot
+! thiꜱ bot iꜱ intended for the purpoꜱe of having fun with memeꜱ,
+! aꜱ well aꜱ efficiently managing groupꜱ.
+! you ended up ꜱpamming groupꜱ, getting reported left and right,
+! and you ended up in a finale battle with telegram and at the end
+! telegram team deleted your account?
+! and after that, then you pointed your fingerꜱ at uꜱ
+! for getting your acoount deleted?
+! i will be rolling on the floor laughing at you.
+! we won't be reꜱponꜱible for any kind of ban due to thiꜱ bot.
+! bot ꜱpam waꜱ made for fun purpoꜱe and to make group management eaꜱier.
+! it'ꜱ your concern if you ꜱpam and getꜱ your account banned.
+! alꜱo, forkꜱ won't be entertained.
+! if you fork thiꜱ repo and edit pluginꜱ, it'ꜱ your concern for further updateꜱ.
+! forking repo iꜱ fine. but if you edit ꜱomething we will not provide any help.
+! in ꜱhort, fork at your own riꜱk
 
-               💖 Thanks for using our bot 💖
+ 💖 Thanks for using our bot 💖**
 ```
 
 ## ʟɪᴄᴇɴᴄᴇ 
