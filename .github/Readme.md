@@ -89,7 +89,7 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 ## ᴅɪꜱᴄʟᴀɪᴍᴇʀ
 
 ```console
-** ❗️YOU ARE FOREWARNED❗️
+❗️YOU ARE FOREWARNED❗️
 
  ⚠️ warning for you ⚠️
 
@@ -111,7 +111,7 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 ! forking repo iꜱ fine. but if you edit ꜱomething we will not provide any help.
 ! in ꜱhort, fork at your own riꜱk
 
- 💖 Thanks for using our bot 💖**
+ 💖 Thanks for using our bot 💖
 ```
 
 ## ʟɪᴄᴇɴᴄᴇ 
