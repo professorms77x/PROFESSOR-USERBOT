@@ -72,7 +72,7 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 
 ## ᴠᴘꜱ/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏᴛᴍᴇɴᴛ
 
-ᴡᴇ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴄᴍᴅꜱ ꜱᴏᴏɴ....
+<b> ᴡᴇ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴄᴍᴅꜱ ꜱᴏᴏɴ.... <img src="https://github.com/VARC9210/STORM-USERBOT/blob/main/res/Z30J.gif" width="20px"></b><br>
 
 ## ᴛᴇʟᴇɢʀᴀᴍ
 
