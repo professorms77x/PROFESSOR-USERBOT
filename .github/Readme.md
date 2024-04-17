@@ -120,7 +120,7 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-<b> ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜʀ ᴍᴜᴍ ᴍɪɴᴇ... <img src="https://github.com/VARC9210/STORM-USERBOT/blob/main/res/7VB.gif" width="80px"></b><br>
+<b> ᴋᴀɴɢ ɪᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛꜱ ᴇʟꜱᴇ ʏᴏᴜʀ ᴍᴜᴍ ᴍɪɴᴇ... <img src="https://github.com/VARC9210/STORM-USERBOT/blob/main/res/7VB.gif" width="50px"></b><br>
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
