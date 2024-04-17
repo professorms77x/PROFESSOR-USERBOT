@@ -84,7 +84,7 @@ href="https://www.clever-cloud.com/deploy?template=https://github.com/VARC9210/S
 
 ## ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴘᴏꜱɪᴛᴏʀʏ
 
-<h2> <img src="https://github.com/Snehashish06/Snehashish06/blob/main/res/cat_gif.gif" width="190px"> KEX 🌿 <img src = "https://github.com/Snehashish06/Snehashish06/blob/main/res/cat1.gif" width="90px"> </h1>
+<h2> <img src="https://github.com/Snehashish06/Snehashish06/blob/main/res/cat_gif.gif" width="90px"> KEX 🌿 <img src = "https://github.com/Snehashish06/Snehashish06/blob/main/res/cat1.gif" width="90px"> </h1>
 
 [**KEX**](https://t.me/kexx_xd) 🌿
 
