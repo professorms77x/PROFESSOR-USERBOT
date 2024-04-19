@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/VARC9210/STORM-USERBOT/commits/Geez-UserBot"><img src="https://img.shields.io/github/last-commit/VARC9210/STORM-USERBOT?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
+    <a href="https://github.com/VARC9210/STORM-USERBOT/commits/STORM-USERBOT"><img src="https://img.shields.io/github/last-commit/VARC9210/STORM-USERBOT?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
     <a href="https://github.com/VARC9210/STORM-USERBOT/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/VARC9210/STORM-USERBOT/CI/Geez-UserBot?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
     <a href="https://travis-ci.com/VARC9210/STORM-USERBOT.svg?branch=STORM-USERBOT" /></a>
     <a href="https://github.com/VARC9210/STORM-USERBOT/issues"> <img src="https://img.shields.io/github/issues/VARC9210/STORM-USERBOT?color=blue&logo=github&style=for-the-badge" /></a>
