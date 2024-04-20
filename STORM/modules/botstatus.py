@@ -17,4 +17,4 @@ async def bstats(client, message):
     
     **ʙʏ @kexx_xd**
     """
-    await message.edit(msg)
+    await message.reply(msg)
