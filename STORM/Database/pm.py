@@ -1,5 +1,5 @@
 pm_data = {"pm": 0}
-pmwarn_data = {"w": "w", "warns": 7}
+pmwarn_data = {"w": "w", "warns": 10}
 pmap_data = []
 warner_data = {}
 
