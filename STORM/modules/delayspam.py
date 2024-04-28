@@ -32,14 +32,14 @@ async def delay_spam(client: Client, message: Message):
     command_parts = message.text.split(maxsplit=2)
     
     if len(command_parts) < 3:
-        await message.reply_text("Invalid command format. Use: `.delayspam <delay_seconds> <text>`")
+        await message.reply_text("ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀᴍᴀᴛ. ᴜꜱᴇ: .ᴅᴇʟᴀʏꜱᴘᴀᴍ <ᴅᴇʟᴀʏ_ꜱᴇᴄᴏɴᴅꜱ> <ᴛᴇxᴛ>")
         return
     
     try:
         delay_seconds = float(command_parts[1])
         spam_text = command_parts[2]
     except ValueError:
-        await message.reply_text("Invalid command format. Use: `.delayspam <delay_seconds> <text>`")
+        await message.reply_text("ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀᴍᴀᴛ. ᴜꜱᴇ: .ᴅᴇʟᴀʏꜱᴘᴀᴍ <ᴅᴇʟᴀʏ_ꜱᴇᴄᴏɴᴅꜱ> <ᴛᴇxᴛ>")
         return
 
     quantity = 15
@@ -47,7 +47,7 @@ async def delay_spam(client: Client, message: Message):
         try:
             quantity = int(command_parts[3])
         except ValueError:
-            await message.reply_text("Invalid quantity. It must be a valid integer.")
+            await message.reply_text("ɪɴᴠᴀʟɪᴅ Qᴜᴀɴᴛɪᴛʏ. ɪᴛ ᴍᴜꜱᴛ ʙᴇ ᴀ ᴠᴀʟɪᴅ ɪɴᴛᴇɢᴇʀ.")
             return
 
     for _ in range(quantity):
