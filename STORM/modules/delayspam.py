@@ -21,7 +21,6 @@
 #SOFTWARE.
 
 import asyncio
-import re
 from pyrogram.types import Message
 from pyrogram import filters, Client
 from config import SUDO_USERS
@@ -30,19 +29,26 @@ from config import SUDO_USERS
     filters.command(["delayspam"], ".") & (filters.me | filters.user(SUDO_USERS))
 )
 async def delay_spam(client: Client, message: Message):
-    command_parts = message.text.split(maxsplit=1)
+    command_parts = message.text.split(maxsplit=2)
     
-    if len(command_parts) < 2:
-        await message.reply_text("ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀᴍᴀᴛ. ᴜꜱᴇ: .ᴅᴇʟᴀʏꜱᴘᴀᴍ <ᴅᴇʟᴀʏ_ꜱᴇᴄᴏɴᴅꜱ> <ᴛᴇxᴛ>")
+    if len(command_parts) < 3:
+        await message.reply_text("Invalid command format. Use: `.delayspam <delay_seconds> <text>`")
         return
     
     try:
-        delay_seconds, quantity, spam_text = re.split(r'\s+', command_parts[1], maxsplit=2)
-        delay_seconds = float(delay_seconds)
-        quantity = int(quantity)
+        delay_seconds = float(command_parts[1])
+        spam_text = command_parts[2]
     except ValueError:
-        await message.reply_text("ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀᴍᴀᴛ. ᴜꜱᴇ: .ᴅᴇʟᴀʏꜱᴘᴀᴍ <ᴅᴇʟᴀʏ_ꜱᴇᴄᴏɴᴅꜱ> <ᴛᴇxᴛ>")
+        await message.reply_text("Invalid command format. Use: `.delayspam <delay_seconds> <text>`")
         return
+
+    quantity = 5
+    if len(command_parts) > 3:
+        try:
+            quantity = int(command_parts[3])
+        except ValueError:
+            await message.reply_text("Invalid quantity. It must be a valid integer.")
+            return
 
     for _ in range(quantity):
         if message.reply_to_message:
